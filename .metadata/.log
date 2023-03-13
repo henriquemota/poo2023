@@ -1,0 +1,1443 @@
+!SESSION 2023-02-26 09:46:25.955 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2023-02-26 09:46:29.997
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-02-26 09:46:46.665
+!MESSAGE Logback config file: /Users/henriquemota/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-02-26 09:46:48.810
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-26 09:46:48.810
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-26 09:46:48.810
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2023-02-27 09:24:42.146 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2023-02-27 09:24:45.700
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-02-27 09:25:22.262
+!MESSAGE Logback config file: /Users/henriquemota/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-02-27 09:25:24.594
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-27 09:25:24.595
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-02-27 09:25:24.595
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2023-03-06 07:46:53.429 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-06 07:46:55.101
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-06 07:46:56.813
+!MESSAGE Logback config file: /Users/henriquemota/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-06 07:46:59.701
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-06 07:46:59.701
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-06 07:46:59.701
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-03-06 08:58:03.230
+!MESSAGE Error retrieving proposal text.
+Display string:
+aluno
+Pattern:
+aluno1
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 6, length 5
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4602)
+	at java.base/java.lang.String.substring(String.java:2705)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:879)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:284)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:273)
+	at org.eclipse.swt.widgets.Table.showSelection(Table.java:3307)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.selectProposal(CompletionProposalPopup.java:1463)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.setProposals(CompletionProposalPopup.java:1196)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$4(AsyncCompletionProposalPopup.java:267)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4368)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-03-06 09:23:55.688
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.StackOverflowError
+	at org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.createProblem(DefaultProblemFactory.java:105)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.createProblem(ProblemHandler.java:104)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:176)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:229)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2679)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.syntaxError(ProblemReporter.java:8451)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handleSyntaxError(ProblemReporter.java:8409)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.parseErrorReplaceToken(ProblemReporter.java:7805)
+	at org.eclipse.jdt.internal.compiler.parser.diagnose.DiagnoseParser.reportPrimaryError(DiagnoseParser.java:2214)
+	at org.eclipse.jdt.internal.compiler.parser.diagnose.DiagnoseParser.reportError(DiagnoseParser.java:2094)
+	at org.eclipse.jdt.internal.compiler.parser.diagnose.DiagnoseParser.reportError(DiagnoseParser.java:2085)
+	at org.eclipse.jdt.internal.compiler.parser.diagnose.DiagnoseParser.primaryDiagnosis(DiagnoseParser.java:981)
+	at org.eclipse.jdt.internal.compiler.parser.diagnose.DiagnoseParser.primaryPhase(DiagnoseParser.java:683)
+	at org.eclipse.jdt.internal.compiler.parser.diagnose.DiagnoseParser.errorRecovery(DiagnoseParser.java:498)
+	at org.eclipse.jdt.internal.compiler.parser.diagnose.DiagnoseParser.diagnoseParse(DiagnoseParser.java:382)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.reportSyntaxErrors(Parser.java:14372)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13193)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13404)
+	at org.eclipse.jdt.internal.codeassist.select.SelectionParser.parse(SelectionParser.java:1698)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:13361)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:11747)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:83)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:61)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModule(LookupEnvironment.java:220)
+	at org.eclipse.jdt.internal.compiler.env.ICompilationUnit.module(ICompilationUnit.java:64)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.module(CompilationUnitDeclaration.java:848)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:474)
+	at org.eclipse.jdt.internal.codeassist.impl.Engine.accept(Engine.java:87)
+!SESSION 2023-03-06 09:24:01.660 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-06 09:24:03.276
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-06 09:24:04.877
+!MESSAGE Logback config file: /Users/henriquemota/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-06 09:24:07.770
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-06 09:24:07.770
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-06 09:24:07.770
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2023-03-10 04:33:00.783 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-10 04:33:02.387
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-10 04:33:04.025
+!MESSAGE Logback config file: /Users/henriquemota/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-10 04:33:07.114
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-10 04:33:07.114
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-10 04:33:07.114
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2023-03-13 07:44:46.270 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-13 07:44:47.917
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-13 07:44:49.567
+!MESSAGE Logback config file: /Users/henriquemota/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-13 07:44:52.624
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 07:44:52.624
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 07:44:52.624
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2023-03-13 08:11:27.942 -----------------------------------------------
+eclipse.buildId=4.26.0.20221201-1200
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/henriquemota/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-13 08:11:29.425
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-03-13 08:11:30.913
+!MESSAGE Logback config file: /Users/henriquemota/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-03-13 08:11:33.450
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 08:11:33.451
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 08:11:33.451
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)

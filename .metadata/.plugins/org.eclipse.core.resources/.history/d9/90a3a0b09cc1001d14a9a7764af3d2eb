@@ -1,0 +1,5 @@
+package principal;
+
+public class Diretor extends Empregado implements Gestor {
+
+}
