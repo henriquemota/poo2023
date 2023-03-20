@@ -1,5 +1,2 @@
 INDEX VERSION 1.131+/Users/henriquemota/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
-3257307946.index
 1865797976.index
-1529856656.index
-1043499794.index

@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="olamundo.Aluno"><rhs name\="olamundo.Aluno"/></lhs><lhs name\="principal.Empregado"><rhs name\="principal.Professor"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="olamundo.Aluno"><rhs name\="olamundo.Aluno"/></lhs><lhs name\="principal.Empregado"><rhs name\="principal.Professor"/></lhs><lhs name\="exericio5.Funcionario"><rhs name\="exericio5.AssistenteAdministrativo"/><rhs name\="exericio5.Tecnico"/></lhs><lhs name\="exericio5.AssistenteAdministrativo"><rhs name\="exericio5.AssistenteAdministrativo"/></lhs><lhs name\="exericio5.Tecnico"><rhs name\="exericio5.Tecnico"/></lhs><lhs name\="exericio5.Animal"><rhs name\="exericio5.Cachorro"/></lhs><lhs name\="exericio5.Cachorro"><rhs name\="exericio5.Cachorro"/></lhs></history>
 content_assist_number_of_computers=12
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0

@@ -2,4 +2,9 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="olamundo.Aluno"/>
     <fullyQualifiedTypeName name="principal.Professor"/>
+    <fullyQualifiedTypeName name="exericio5.Funcionario"/>
+    <fullyQualifiedTypeName name="exericio5.AssistenteAdministratico"/>
+    <fullyQualifiedTypeName name="exericio5.AssistenteAdministrativo"/>
+    <fullyQualifiedTypeName name="exericio5.Tecnico"/>
+    <fullyQualifiedTypeName name="exericio5.Cachorro"/>
 </qualifiedTypeNameHistroy>
