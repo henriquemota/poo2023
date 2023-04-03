@@ -7,4 +7,7 @@
     <fullyQualifiedTypeName name="exericio5.AssistenteAdministrativo"/>
     <fullyQualifiedTypeName name="exericio5.Tecnico"/>
     <fullyQualifiedTypeName name="exericio5.Cachorro"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="principal.PessoaFisica"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
