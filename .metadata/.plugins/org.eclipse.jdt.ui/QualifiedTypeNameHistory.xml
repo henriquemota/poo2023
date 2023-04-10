@@ -10,4 +10,9 @@
     <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="principal.PessoaFisica"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="br.estacio.cadastros.Pessoa"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="br.estacio.cadastros.PessoaFisica"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="br.estacio.cadastros.PessoaJuridica"/>
 </qualifiedTypeNameHistroy>

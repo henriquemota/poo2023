@@ -20,5 +20,9 @@ public class PessoaJuridica extends Pessoa {
 	public String toString() {
 		return super.toString() + "; CNPJ: " + this.CNPJ;
 	}
+	
+	public boolean equals(Object o) {
+		return ((PessoaJuridica)o).CNPJ.equals(this.CNPJ);
+	}
 
 }

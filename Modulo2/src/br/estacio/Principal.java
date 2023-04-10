@@ -1,41 +1,43 @@
 package br.estacio;
 
-import br.estacio.cadastros.*;
+import br.estacio.polimorfismo.*;
+import br.estacio.exercicio2.*;
 
 public class Principal {
 
 	public static void main(String[] args) {
-		Pessoa p = new Pessoa("Henrique Mota");
-		System.out.print(p.toString());
 		
-		System.out.println("\n____________________\n");
+		Automovel a1 = new Automovel("PNQ0123", "Gol", Automovel.GASOLINA, (short)2012);
+		AutomovelLuxo a2 = new AutomovelLuxo("PNQ0124", "Audi", Automovel.ALCOOL, (short)2018, true, true, true);
+		AutomovelLuxo a3 = new AutomovelLuxo("PNQ0125", "Hillux", Automovel.DIESEL, (short)2017, true, true, false);
+		AutomovelLuxo a4 = new AutomovelLuxo("PNQ0126", "Mercedes", Automovel.GASOLINA, (short)2017, false, false, false);
 		
-		PessoaFisica pf = new PessoaFisica();
-		pf.setNome("João da Silva");
-		pf.setCPF("1234567");
-		System.out.print(pf.toString());
+		System.out.println(a1.getCusto());
+		System.out.println(a2.getCusto());
+		System.out.println(a3.getCusto());
+		System.out.println(a4.getCusto());
 		
-		System.out.println("\n____________________\n");
+		/*
+		Funcionario f = new Funcionario();
+		f.setSalario(1000);
+		System.out.println(f.getBonificacao());
 		
-		PessoaJuridica pj = new PessoaJuridica("Estaio", "1277765533");
-		System.out.print(pj.toString());
+		Gerente g = new Gerente();
+		g.setSalario(1500);
+		System.out.println(g.getBonificacao());
 		
-		System.out.println("\n____________________\n");
+		Funcionario f1 = g;
+		System.out.println(f1.getBonificacao());
+	
 		
-		PessoaJuridica pj1 = new PessoaJuridica("Estacio", "3377765533");
-		System.out.print(pj1.toString());
-
-		System.out.println("\n____________________\n");
+		Bonificacao b = new Bonificacao();
+		b.registra(f);
+		b.registra(g);
+		b.registra(f1);
 		
-		PessoaJuridica pj2 = new PessoaJuridica("Estacio", "3377765533");
-		System.out.print(pj2.toString());
-		
-		System.out.println("\n____________________\n");
-
-		PessoaJuridica pj3 = pj2;
-		System.out.print(pj3.toString());
-
-		
+		System.out.println(b.getTotalDeBonificacoes());
+		*/	
+				
 	}
 
 }
