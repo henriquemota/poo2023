@@ -15,4 +15,12 @@
     <fullyQualifiedTypeName name="br.estacio.cadastros.PessoaFisica"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="br.estacio.cadastros.PessoaJuridica"/>
+    <fullyQualifiedTypeName name="br.estacio.polimorfismo.Funcionario"/>
+    <fullyQualifiedTypeName name="br.estacio.polimorfismo.Gerente"/>
+    <fullyQualifiedTypeName name="br.estacio.polimorfismo.Bonificacao"/>
+    <fullyQualifiedTypeName name="br.estacio.exercicio2.Automovel"/>
+    <fullyQualifiedTypeName name="br.estacio.exercicio2.AutomovelLuxo"/>
+    <fullyQualifiedTypeName name="br.estacio.polimorfismo.Atendente"/>
+    <fullyQualifiedTypeName name="br.estacio.polimorfismo.PontoEletronico"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>

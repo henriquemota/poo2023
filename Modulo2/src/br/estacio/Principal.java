@@ -2,11 +2,26 @@ package br.estacio;
 
 import br.estacio.polimorfismo.*;
 import br.estacio.exercicio2.*;
+import javax.swing.*;
 
 public class Principal {
 
 	public static void main(String[] args) {
 		
+		Gerente g = new Gerente();
+		Caixa c = new Caixa();
+		Atendente a = new Atendente();
+		
+		PontoEletronico p = new PontoEletronico();
+		
+		p.registrarEntrada(g);
+		p.registrarEntrada(c);
+		p.registrarEntrada(a);
+		
+		JOptionPane jp = new JOptionPane("oi");
+		
+		
+		/*
 		Automovel a1 = new Automovel("PNQ0123", "Gol", Automovel.GASOLINA, (short)2012);
 		AutomovelLuxo a2 = new AutomovelLuxo("PNQ0124", "Audi", Automovel.ALCOOL, (short)2018, true, true, true);
 		AutomovelLuxo a3 = new AutomovelLuxo("PNQ0125", "Hillux", Automovel.DIESEL, (short)2017, true, true, false);
@@ -17,7 +32,6 @@ public class Principal {
 		System.out.println(a3.getCusto());
 		System.out.println(a4.getCusto());
 		
-		/*
 		Funcionario f = new Funcionario();
 		f.setSalario(1000);
 		System.out.println(f.getBonificacao());
