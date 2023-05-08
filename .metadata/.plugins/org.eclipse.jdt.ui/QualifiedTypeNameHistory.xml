@@ -22,5 +22,15 @@
     <fullyQualifiedTypeName name="br.estacio.exercicio2.AutomovelLuxo"/>
     <fullyQualifiedTypeName name="br.estacio.polimorfismo.Atendente"/>
     <fullyQualifiedTypeName name="br.estacio.polimorfismo.PontoEletronico"/>
+    <fullyQualifiedTypeName name="br.estacio.modulo3.TVLCDConcreta"/>
+    <fullyQualifiedTypeName name="br.estacio.modulo3.TVLCD"/>
+    <fullyQualifiedTypeName name="br.estacio.modulo3.TVPlasma"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="javax.swing.WindowConstants"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="br.estacio.modulo4.JanelaBase"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
 </qualifiedTypeNameHistroy>
