@@ -8,6 +8,7 @@ public abstract class Base extends JFrame {
 		this.setTitle(title);
 		this.setSize(width, height);
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.setLocationRelativeTo(null);
 	}
 
 }
